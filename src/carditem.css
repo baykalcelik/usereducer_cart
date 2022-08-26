@@ -1,0 +1,94 @@
+
+
+.ciCover{
+    display:flex;
+    align-items: center;
+    width:100%;
+    /* background-color: aquamarine; */
+
+}
+
+.resim{
+    width:5rem;
+    height:5rem;
+    object-fit: contain;
+    object-position: center;
+    margin-top:0.2rem;
+
+}
+
+.middle{
+    margin-left:1rem;
+}
+
+
+.title{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    text-transform: capitalize;
+
+}
+
+.price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:rgb(101,125,152);
+
+}
+
+.removeBtn{
+    outline:none;
+    border:none;
+    background-color: none;
+    letter-spacing: 2px;
+    color:rgb(101,125,152);
+    font-size: 0.9rem;
+
+}
+
+
+.removeBtn:hover{
+    color:rgb(182, 209, 240);
+    cursor: pointer;
+
+}
+
+.yukari{
+    color:rgb(38,128,192);
+
+}
+
+.yukari:hover{
+    color:rgb(182, 209, 240);
+    cursor: pointer;
+
+}
+
+
+.asagi{
+    color:rgb(38,128,192);
+
+}
+
+
+.asagi:hover{
+    color:rgb(182, 209, 240);
+    cursor: pointer;
+
+}
+
+
+
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:auto;
+
+}
